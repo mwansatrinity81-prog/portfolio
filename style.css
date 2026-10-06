@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightslategray;
+  color: black;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  color: green;
+}
+
+li {
+  margin-bottom: 8px;
+}
+body.dark {
+  background-color: #1e1e1e;
+  color: teal
+}
+
+body.dark h1 {
+  color: purple
+}
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+#feedback {
+  font-weight: bold;
+}
